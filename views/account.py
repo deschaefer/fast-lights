@@ -2,9 +2,9 @@ import fastapi
 from fastapi_chameleon import template
 from starlette.requests import Request
 
-from viewmodels.account.account_viewmodel import AccountViewModel
-from viewmodels.account.login_viewmodel import LoginViewModel
-from viewmodels.account.register_viewmodel import RegisterViewModel
+from view_models.account.account_view_model import AccountViewModel
+from view_models.account.login_view_model import LoginViewModel
+from view_models.account.register_view_model import RegisterViewModel
 
 router = fastapi.APIRouter()
 
